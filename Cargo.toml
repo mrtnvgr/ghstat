@@ -2,6 +2,11 @@
 name = "ghstats"
 version = "0.1.0"
 edition = "2021"
+description = "Simple utility for fetching github user info"
+license = "GPL-3.0"
+repository = "https://github.com/mrtnvgr/ghstats"
+keywords = ["github", "graphql", "cli", "stats", "git"]
+categories = ["command-line-utilities"]
 
 [dependencies]
 clap = { version = "4.4.6", features = ["derive"] }
